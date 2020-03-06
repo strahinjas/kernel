@@ -34,7 +34,6 @@ public:
 
 	static void signal(IVTNo ivtNo);
 	static pInterrupt oldOne(IVTNo ivtNo);
-
 private:
 	IVTNo entry;
 	KernelEv* event;
