@@ -29,7 +29,7 @@ public:
 	volatile unsigned bp;
 	volatile unsigned lck;
 
-	enum State {IDLE, READY, ASLEEP, BLOCKED, FINISHED};
+	enum State { IDLE, READY, ASLEEP, BLOCKED, FINISHED };
 
 	State state;
 	unsigned int quantum;
